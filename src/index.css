@@ -1,0 +1,51 @@
+:root {
+  /* =========================
+     VOLTDESK BRAND COLOURS
+     ========================= */
+
+  --volt-gold: #ffb400;
+  --volt-gold-light: #ffc533;
+  --volt-gold-dark: #e09b00;
+
+  --wamara-dark: #182230;
+  --wamara-dark-light: #263241;
+
+  --white: #ffffff;
+
+  --background: #f4f5f7;
+  --surface: #ffffff;
+  --border: #e5e7eb;
+
+  --text-primary: #182230;
+  --text-secondary: #667085;
+  --text-muted: #98a2b3;
+
+  --danger: #d92d20;
+  --success: #039855;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family:
+    Inter,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  background: var(--background);
+  color: var(--text-primary);
+}
